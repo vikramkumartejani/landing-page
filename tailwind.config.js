@@ -21,9 +21,16 @@ module.exports = {
       backgroundImage: {
         "custom-gradient":
           "linear-gradient(90deg, #5271FF 22.01%, #FFFFFF 100%)",
+          'bg-meet-hira': 'linear-gradient(180deg, #5271FF 60%, #FFFFFF 100%)',
       },
       boxShadow: {
         "shadow-custom": "0px 0px 0px 0px #00000014",
+        'custom': '0px 4px 4px 0px #00000040',
+
+      },
+      borderRadius: {
+        'custom': '20px 20px 0px 20px',
+        'custom1': '20px 20px 20px 0px',
       },
       textShadow: {
         custom: "0px 4px 4px rgba(0, 0, 0, 0.25)",
@@ -33,6 +40,7 @@ module.exports = {
         'sm': '640px',  
         'md': '768px',  
         'lg': '1024px',  
+        'xlg': '1200px',  
         'xl': '1280px', 
         '2xl': '1536px' 
       },

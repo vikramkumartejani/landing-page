@@ -42,10 +42,10 @@ const Recruitment = () => {
         <span className="text-[#F4CD59]">.</span>
       </h2>
 
-      {/* arrays data show here */}
-      <div className='mt-[89px] mb-[105px] grid grid-cols-1 sm:grid-cols-2 justify-items-center items-center gap-24'>
+      {/* Box */}
+      <div className='mt-[89px] mb-[105px] grid grid-cols-1 sm:grid-cols-2 lg:items-baseline justify-items-center gap-24'>
         {recruitment.map((item, index) => (
-          <div key={index} className="flex flex-col items-center text-center max-w-[532px]">
+          <div key={index} className="flex flex-col items-center text-center justify-center max-w-[532px]">
             <Image src={item.img} alt={item.title} width={item.width} height={item.height} className="mb-[45.45px]" />
             <h3 className="font-gilroy-bold sm:text-[28px] text-[25px] leading-[34.66px] text-blue">{item.title}</h3>
             <p className="font-gilroy-regular sm:text-[28px] text-[24px] leading-[33.6px] text-black pt-5">{item.desp}</p>
